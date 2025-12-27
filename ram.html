@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ramkumar V | Student Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0b0f19;
+      color: #ffffff;
+    }
+
+    header {
+      padding: 20px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      color: #7c7cff;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #cfcfcf;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #7c7cff;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text h1 span {
+      color: #7c7cff;
+    }
+
+    .hero-text p {
+      margin: 15px 0;
+      color: #b5b5b5;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 6px;
+      margin-right: 15px;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background: #7c7cff;
+      color: #000;
+    }
+
+    .btn-secondary {
+      border: 1px solid #7c7cff;
+      color: #7c7cff;
+    }
+
+    .profile-pic {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 4px solid #7c7cff;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 60px 80px;
+    }
+
+    section h2 {
+      margin-bottom: 25px;
+      color: #7c7cff;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #151a2e;
+      padding: 8px 14px;
+      border-radius: 20px;
+      margin: 8px 8px 0 0;
+      font-size: 13px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #12172b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #8a8a8a;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>MyPortfolio</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Ramkumar V</span></h1>
+    <p>
+      I'm a college student passionate about technology and development.
+      This portfolio is created as part of my academic activity using HTML and CSS.
+    </p>
+
+    <div class="buttons">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="resume/Kishor_Resume.pdf" class="btn-secondary" target="_blank">
+        Download Resume
+      </a>
+    </div>
+  </div>
+
+  <img src="WhatsApp Image 2025-12-27 at 12.14.42_1e7fd1e9.jpg" alt="Profile" class="profile-pic">
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+   Motivated 2nd-year AI/ML undergraduate from Bannari Amman Institute of Technology, aiming to build strong foundations in machine learning, data structures, and applied AI systems. Hands-on experience in developing ML projects such as student performance prediction and spam email detection using Python and popular ML libraries. Possess solid understanding of DSA fundamentals, system constraints, and CPU vs GPU computation. Actively seeking internship and research-oriented opportunities to align academic learning with real-world industry and higher studies requirements.
+  </p>
+  
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>C Programming</span>
+    <span>Python (Basic)</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Editing</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Student Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>Student Portfolio Website</h3>
+      <p>
+        Personal portfolio website developed using HTML and CSS
+        as part of college academic activity.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Academic Mini Project</h3>
+      <p>
+        Mini project created to strengthen practical understanding
+        of programming and problem-solving concepts.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: ramkumarramkumar70100@gmail.com</p>
+  <p>College: Bannari Amman Institute of Technology</p>
+</section>
+
+<footer>
+  © 2025 | Ramkumar R – Student Portfolio
+</footer>
+
+</body>
+</html>
